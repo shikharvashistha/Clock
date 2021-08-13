@@ -19,6 +19,6 @@ jobs:
       - name: configure
         working-directory: src/
         run: mkdir build && cd build && cmake ..
-      - name: build
-        working-directory: src/
-        run: cmake --build build
+     # - name: build graphic.h
+        #working-directory: src/
+       # run: cmake --build build
